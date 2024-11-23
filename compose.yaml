@@ -1,0 +1,10 @@
+services:
+  app:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    image: triva:latest
+    container_name: triva
+    restart: unless-stopped
+    ports:
+      - 3000:3000
