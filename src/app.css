@@ -11,33 +11,17 @@ body {
 }
 
 *::selection {
-  @apply bg-pink-200 text-zinc-900; 
-}
-
-html::-webkit-scrollbar {
-  width: 0.6rem;
-}
-
-html.dark::-webkit-scrollbar-track {
-  @apply bg-white;
-}
-
-html::-webkit-scrollbar-track {
-  @apply bg-white
-}
-
-html::-webkit-scrollbar-thumb {
-  @apply bg-pink-300 rounded-full;
+  @apply bg-lime-300 text-stone-900; 
 }
 
 .neoshadow {
-  @apply border-zinc-900 outline-none border-2 whitespace-nowrap rounded-base font-base ring-offset-white transition-all focus-visible:outline-none focus-visible:ring-0 focus-visible:ring-zinc-900 focus-visible:ring-offset-0 disabled:pointer-events-none disabled:opacity-50 hover:!translate-x-[4px] hover:!translate-y-[4px] duration-75 shadow-[4px_4px_0px_rgba(24,24,27,1)] hover:shadow-[0px_0px_0px_rgba(24,24,27,1)];
+  @apply border-stone-900 outline-none border-2 whitespace-nowrap rounded-base font-base ring-offset-white transition-all focus-visible:outline-none focus-visible:ring-0 focus-visible:ring-stone-900 focus-visible:ring-offset-0 disabled:pointer-events-none disabled:opacity-50 hover:!translate-x-[4px] hover:!translate-y-[4px] duration-75 shadow-[4px_4px_0px_rgba(24,24,27,1)] hover:shadow-[0px_0px_0px_rgba(24,24,27,1)];
 }
 
 .neoshadow-lg {
-  @apply border-zinc-900 outline-none border-4 whitespace-nowrap rounded-base font-base ring-offset-white transition-all focus-visible:outline-none focus-visible:ring-0 focus-visible:ring-zinc-900 focus-visible:ring-offset-0 disabled:pointer-events-none disabled:opacity-50 hover:!translate-x-[8px] hover:!translate-y-[8px] duration-75 shadow-[8px_8px_0px_rgba(24,24,27,1)] hover:shadow-[0px_0px_0px_rgba(24,24,27,1)];
+  @apply border-stone-900 outline-none border-4 whitespace-nowrap rounded-base font-base ring-offset-white transition-all focus-visible:outline-none focus-visible:ring-0 focus-visible:ring-stone-900 focus-visible:ring-offset-0 disabled:pointer-events-none disabled:opacity-50 hover:!translate-x-[8px] hover:!translate-y-[8px] duration-75 shadow-[8px_8px_0px_rgba(24,24,27,1)] hover:shadow-[0px_0px_0px_rgba(24,24,27,1)];
 }
 
 .neoshadow-no-hover {
-  @apply border-zinc-900 outline-none border-2 whitespace-nowrap rounded-base font-base ring-offset-white transition-all focus-visible:outline-none focus-visible:ring-0 focus-visible:ring-zinc-900 focus-visible:ring-offset-0 disabled:pointer-events-none disabled:opacity-50 shadow-[4px_4px_0px_rgba(24,24,27,1)];
+  @apply border-stone-900 outline-none border-2 whitespace-nowrap rounded-base font-base ring-offset-white transition-all focus-visible:outline-none focus-visible:ring-0 focus-visible:ring-stone-900 focus-visible:ring-offset-0 disabled:pointer-events-none disabled:opacity-50 shadow-[4px_4px_0px_rgba(24,24,27,1)];
 }

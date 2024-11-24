@@ -35,7 +35,6 @@
 		"@fontsource-variable/outfit": "^5.1.0",
 		"@fontsource/caprasimo": "^5.1.0",
 		"@godaddy/terminus": "^4.12.1",
-		"@imgly/background-removal-node": "^1.4.5",
 		"@sveltejs/adapter-node": "^5.2.9",
 		"@tailwindcss/aspect-ratio": "^0.4.2",
 		"axios": "^1.7.7",

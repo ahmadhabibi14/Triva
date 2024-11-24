@@ -1,4 +1,4 @@
-import type { ResponseHTTP } from "../../types/response.d"
+import type { ResponseHTTP } from "@/types/response.js"
 
 export function ResponseJSONFunc<T extends ResponseHTTP>(d: T, statusCode: number): Response {
   return new Response(
